@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>A Mazing Generator</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>A' Mazing Generator</h1>
+    <form id="mazeForm">
+        <label for="cols">Cols: </label>
+        <input type="number" id="cols" required>
+        <label for="rows">Rows: </label>
+        <input type="number" id="rows" required>
+        <input type="button" value="Generate" id="generate">
+    </form>
+    <button id="showMaze">Show Maze</button>
+    <textarea id="mazeJSON" rows="10" cols="50" readonly></textarea>
+    <div id="maze-container">
+        <div id="maze-board">
+            
+        </div>
+    </div>
+    <script src="maze.js"></script>
+</body>
+</html>
