@@ -1,7 +1,6 @@
 html, body {
-    height: 100%; /* Make sure the parent elements are full height */
-    margin: 0; /* Remove default margin */
-    
+    height: 100%; 
+    margin: 0; 
 }
 
 #maze-container {
@@ -9,10 +8,10 @@ html, body {
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    width: fit-content; /* Adjust width to fit its content */
+    width: fit-content; 
     padding: 10px;
-    box-sizing: border-box; /* Include padding in the width calculation */
-    /* remove margin: 0 auto; as it is no longer necessary with flexbox */
+    box-sizing: border-box; 
+   
 }
 #maze-board {
     display: inline-block;
